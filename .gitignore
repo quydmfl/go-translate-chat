@@ -1,0 +1,45 @@
+# Binaries
+/bin/
+/bin/*
+*.exe
+*.dll
+*.dylib
+*.so
+*.out
+
+# Build artifacts
+*.o
+*.a
+
+# Go build & cache
+/build/
+*.test
+*.prof
+
+
+# IDE & Editor settings
+/.vscode/
+/.idea/
+/*.iml
+
+# Dependencies (when using vendor)
+vendor/
+
+# Logs & Debugging
+*.log
+*.trace
+debug/
+
+# Coverage reports
+coverage.out
+*.cov
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Git-specific files
+.git/
